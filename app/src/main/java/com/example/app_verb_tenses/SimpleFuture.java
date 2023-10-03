@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SimplePresent_MainActivity extends AppCompatActivity {
+public class SimpleFuture extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_present_main);
+        setContentView(R.layout.activity_simple_future);
     }
 }
