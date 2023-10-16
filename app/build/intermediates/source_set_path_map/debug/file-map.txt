@@ -22,11 +22,11 @@ com.example.app_verb_tenses.app-activity-1.6.0-20 C:\Users\Aluno\.gradle\caches\
 com.example.app_verb_tenses.app-recyclerview-1.1.0-21 C:\Users\Aluno\.gradle\caches\transforms-3\d55f9b1c6cb2370e24af439e7aff662a\transformed\recyclerview-1.1.0\res
 com.example.app_verb_tenses.app-drawerlayout-1.1.1-22 C:\Users\Aluno\.gradle\caches\transforms-3\edcdf00559453ac5f7364b461524ff25\transformed\drawerlayout-1.1.1\res
 com.example.app_verb_tenses.app-core-1.9.0-23 C:\Users\Aluno\.gradle\caches\transforms-3\f5896e6a027ba92fdc7c623f875e955f\transformed\core-1.9.0\res
-com.example.app_verb_tenses.app-pngs-24 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\generated\res\pngs\debug
-com.example.app_verb_tenses.app-resValues-25 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\generated\res\resValues\debug
-com.example.app_verb_tenses.app-rs-26 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\generated\res\rs\debug
-com.example.app_verb_tenses.app-packageDebugResources-27 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
-com.example.app_verb_tenses.app-packageDebugResources-28 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
-com.example.app_verb_tenses.app-merged_res-29 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\build\intermediates\merged_res\debug
-com.example.app_verb_tenses.app-debug-30 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\src\debug\res
-com.example.app_verb_tenses.app-main-31 C:\Users\Aluno\Downloads\calculadora da alice\2023-3MA-educom-G06\app\src\main\res
+com.example.app_verb_tenses.app-pngs-24 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\generated\res\pngs\debug
+com.example.app_verb_tenses.app-resValues-25 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\generated\res\resValues\debug
+com.example.app_verb_tenses.app-rs-26 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\generated\res\rs\debug
+com.example.app_verb_tenses.app-packageDebugResources-27 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.example.app_verb_tenses.app-packageDebugResources-28 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.example.app_verb_tenses.app-merged_res-29 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\build\intermediates\merged_res\debug
+com.example.app_verb_tenses.app-debug-30 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\debug\res
+com.example.app_verb_tenses.app-main-31 C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\res

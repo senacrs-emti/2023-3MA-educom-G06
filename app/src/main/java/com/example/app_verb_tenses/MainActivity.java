@@ -9,28 +9,28 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnSimplePresent, btnSimplePast, btnPastContinuous, btnPastPerfect, btnSimpleFuture, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnPastPerferctSimple, btnFuturePerfect, btnFuturePerfectContinuous;
+    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnSimpleFuture, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnFuture;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnSimplePresent = findViewById(R.id.btnSimplePresent);
-        btnSimplePresent.setOnClickListener(new View.OnClickListener() {
+        btnPresentSimple = findViewById(R.id.btnPresentSimple);
+        btnPresentSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent SimplePast = new Intent(getApplicationContext(), SimplePresent.class);
-                startActivity(SimplePast);
+                Intent PresentSimple = new Intent(getApplicationContext(), SimplePresent.class);
+                startActivity(PresentSimple);
             }
         });
 
-        btnSimplePast = findViewById(R.id.btnSimplePast);
-        btnSimplePast.setOnClickListener(new View.OnClickListener() {
+        btnPresentSimple = findViewById(R.id.btnPresentContinuous);
+        btnPresentSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent SimplePast = new Intent(getApplicationContext(),com.example.app_verb_tenses.SimplePast.class);
-                startActivity(SimplePast);
+                Intent PresentSimple = new Intent(getApplicationContext(), PresentContinuous.class);
+                startActivity(PresentSimple);
             }
         });
 
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPastPerfect = findViewById(R.id.btnPastPerfect);
+        btnPastPerfect = findViewById(R.id.btnPastSimple);
         btnPastPerfect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPresentPerfectContinuous = findViewById(R.id.btnPresentPerfectContinuous);
+        btnPresentPerfectContinuous = findViewById(R.id.btnPresentPastContinuous);
         btnPresentPerfectContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

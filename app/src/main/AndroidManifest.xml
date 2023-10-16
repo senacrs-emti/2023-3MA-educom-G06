@@ -17,16 +17,7 @@
             android:name=".PresentContinuousActivity"
             android:exported="false" />
         <activity
-            android:name=".FuturePerfectContinuous"
-            android:exported="false" />
-        <activity
-            android:name=".FuturePerfect"
-            android:exported="false" />
-        <activity
             android:name=".PastPerfectSimple"
-            android:exported="false" />
-        <activity
-            android:name=".PresentPerfectContinuous"
             android:exported="false" />
         <activity
             android:name=".PresentPerfectSimple"
@@ -35,10 +26,7 @@
             android:name=".SimpleFuture"
             android:exported="false" />
         <activity
-            android:name=".PastContinuous"
-            android:exported="false" />
-        <activity
-            android:name=".SimplePast"
+            android:name=".PresentContinuous"
             android:exported="false" />
         <activity
             android:name=".SimplePresent"

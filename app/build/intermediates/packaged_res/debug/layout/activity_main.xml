@@ -7,145 +7,120 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnPresentPerfectContinuous2"
         android:layout_width="300dp"
         android:layout_height="75dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Past Perfect"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button15"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:backgroundTint="#D82A04"
-        android:text="Future Perfect Continuous"
+        android:backgroundTint="#2c2c2c"
+        android:text="Future"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="1012dp" />
+        tools:layout_editor_absoluteY="782dp" />
 
     <Button
-        android:id="@+id/button14"
+        android:id="@+id/btnPastSimple"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Future Perfect"
+        android:backgroundTint="#2c2c2c"
+        android:text="Past Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button15"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button13"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Past Perfect Simple"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintBottom_toTopOf="@+id/btnSimpleFuture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/btnPresentPastContinuous"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Present Perfect Continuous"
+        android:backgroundTint="#2c2c2c"
+        android:text="Past Perferct Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button13"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectContinuous2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button11"
+        android:id="@+id/btnPresentPerfectSimple"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
+        android:backgroundTint="#2c2c2c"
+        android:text="Present Perfect Coutinuous"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentPastContinuous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnSimpleFuture"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2c2c2c"
         android:text="Present Perfect Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button12"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button7"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Simple Future"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="300dp"
-        android:layout_height="75dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Simple Present"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectSimple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnPresentSimple"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
-        android:text="Simple Past"
+        android:backgroundTint="#2c2c2c"
+        android:text="Present Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentContinuous"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/btnPresentContinuous"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
-        android:backgroundTint="#D82A04"
+        android:backgroundTint="#2c2c2c"
+        android:text="Present Continuous"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPastContinuous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPastContinuous"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2c2c2c"
         android:text="Past Continuous"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintBottom_toTopOf="@+id/btnPastSimple"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/txtTitle"
         android:layout_width="450dp"
-        android:layout_height="100dp"
+        android:layout_height="80dp"
         android:background="#2C2C2C"
         android:gravity="center"
-        android:text="verbpedia"
+        android:text="Verbpedia"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="40sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentSimple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
