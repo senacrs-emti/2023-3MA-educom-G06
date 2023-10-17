@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class PresentContinuousActivity extends AppCompatActivity {
+public class PastContinuous extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_present_continuous);
+        setContentView(R.layout.activity_past_continuous);
     }
 }

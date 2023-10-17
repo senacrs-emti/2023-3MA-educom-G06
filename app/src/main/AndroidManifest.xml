@@ -14,9 +14,6 @@
         android:theme="@style/Theme.Appverbtenses"
         tools:targetApi="31">
         <activity
-            android:name=".PresentContinuousActivity"
-            android:exported="false" />
-        <activity
             android:name=".PastPerfectSimple"
             android:exported="false" />
         <activity

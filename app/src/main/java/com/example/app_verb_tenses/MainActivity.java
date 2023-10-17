@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnSimpleFuture, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnFuture;
+    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnPresentPerfectSimple, btnPastPerfectSimple, btnFuture;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +25,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPresentSimple = findViewById(R.id.btnPresentContinuous);
-        btnPresentSimple.setOnClickListener(new View.OnClickListener() {
+        btnPresentContinuous = findViewById(R.id.btnPresentContinuous);
+        btnPresentContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PresentSimple = new Intent(getApplicationContext(), PresentContinuous.class);
-                startActivity(PresentSimple);
+                Intent PresentContinuous = new Intent(getApplicationContext(), PresentContinuous.class);
+                startActivity(PresentContinuous);
             }
         });
 
@@ -38,16 +38,16 @@ public class MainActivity extends AppCompatActivity {
         btnPastContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PastContinuous = new Intent(getApplicationContext(),com.example.app_verb_tenses.PastContinuous.class);
+                Intent PastContinuous = new Intent(getApplicationContext(), PastContinuous.class);
                 startActivity(PastContinuous);
             }
         });
 
-        btnPastPerfect = findViewById(R.id.btnPastSimple);
-        btnPastPerfect.setOnClickListener(new View.OnClickListener() {
+        btnPastSimple = findViewById(R.id.btnPastSimple);
+        btnPastSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PastPerfect = new Intent(getApplicationContext(),com.example.app_verb_tenses.PastPerfect.class);
+                Intent PastPerfect = new Intent(getApplicationContext(), PastContinuous.class);
                 startActivity(PastPerfect);
             }
         });
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPresentPerfectSimple = findViewById(R.id.btnPresentPerfectSimple);
+        btnPresentPerfectSimple = findViewById(R.id.btnPresentPerfectContinuous);
         btnPresentPerfectSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnPresentPerfectContinuous = findViewById(R.id.btnPresentPastContinuous);
+        btnPresentPerfectContinuous = findViewById(R.id.btnPastPerfectSimple);
         btnPresentPerfectContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

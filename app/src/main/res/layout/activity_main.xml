@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnPresentPerfectContinuous2"
+        android:id="@+id/btnFuture"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:backgroundTint="#2c2c2c"
@@ -32,27 +32,27 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnPresentPastContinuous"
+        android:id="@+id/btnPastPerfectSimple"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="#2c2c2c"
         android:text="Past Perferct Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectContinuous2"
+        app:layout_constraintBottom_toTopOf="@+id/btnFuture"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnPresentPerfectSimple"
+        android:id="@+id/btnPresentPerfectContinuous"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
         android:backgroundTint="#2c2c2c"
         android:text="Present Perfect Coutinuous"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnPresentPastContinuous"
+        app:layout_constraintBottom_toTopOf="@+id/btnPastPerfectSimple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent" />
@@ -65,7 +65,7 @@
         android:backgroundTint="#2c2c2c"
         android:text="Present Perfect Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectSimple"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectContinuous"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
