@@ -14,10 +14,19 @@
         android:theme="@style/Theme.Appverbtenses"
         tools:targetApi="31">
         <activity
-            android:name=".PastPerfectSimple"
+            android:name=".FutureContinuous"
             android:exported="false" />
         <activity
             android:name=".PresentPerfectSimple"
+            android:exported="false" />
+        <activity
+            android:name=".PresentPerfectContinuous"
+            android:exported="false" />
+        <activity
+            android:name=".SimplePast"
+            android:exported="false" />
+        <activity
+            android:name=".PastPerfectSimple"
             android:exported="false" />
         <activity
             android:name=".SimpleFuture"

@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnPresentPerfectSimple, btnPastPerfectSimple, btnFuture;
+    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnPastPerferctSimple, btnFuture, btnFutureContinuous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,34 +47,25 @@ public class MainActivity extends AppCompatActivity {
         btnPastSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PastPerfect = new Intent(getApplicationContext(), PastContinuous.class);
-                startActivity(PastPerfect);
+                Intent SimplePast = new Intent(getApplicationContext(), SimplePast.class);
+                startActivity(SimplePast);
             }
         });
 
-        btnSimpleFuture = findViewById(R.id.btnSimpleFuture);
-        btnSimpleFuture.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent SimpleFuture = new Intent(getApplicationContext(),com.example.app_verb_tenses.SimpleFuture.class);
-                startActivity(SimpleFuture);
-            }
-        });
-
-        btnPresentPerfectSimple = findViewById(R.id.btnPresentPerfectContinuous);
+        btnPresentPerfectSimple = findViewById(R.id.btnPresentPerfectSimple);
         btnPresentPerfectSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PresentPerfectSimple = new Intent(getApplicationContext(),com.example.app_verb_tenses.PresentPerfectSimple.class);
+                Intent PresentPerfectSimple = new Intent(getApplicationContext(), PresentPerfectSimple.class);
                 startActivity(PresentPerfectSimple);
             }
         });
 
-        btnPresentPerfectContinuous = findViewById(R.id.btnPastPerfectSimple);
+        btnPresentPerfectContinuous = findViewById(R.id.btnPresentPerfectContinuous);
         btnPresentPerfectContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PresentPerfectContinuous = new Intent(getApplicationContext(),com.example.app_verb_tenses.PresentPerfectContinuous.class);
+                Intent PresentPerfectContinuous = new Intent(getApplicationContext(), PresentPerfectContinuous.class);
                 startActivity(PresentPerfectContinuous);
             }
         });
@@ -88,21 +79,21 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnFuturePerfect = findViewById(R.id.btnFuturePerfect);
-        btnFuturePerfect.setOnClickListener(new View.OnClickListener() {
+        btnFuture = findViewById(R.id.btnFuture);
+        btnFuture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent FuturePerfect = new Intent(getApplicationContext(),com.example.app_verb_tenses.FuturePerfect.class);
-                startActivity(FuturePerfect);
+                Intent SimpleFuture = new Intent(getApplicationContext(),SimpleFuture.class);
+                startActivity(SimpleFuture);
             }
         });
 
-        btnFuturePerfectContinuous = findViewById(R.id.btnFuturePerfectContinuous);
-        btnFuturePerfectContinuous.setOnClickListener(new View.OnClickListener() {
+        btnFutureContinuous = findViewById(R.id.btnFutureContinuous);
+        btnFutureContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent FuturePerfectContinuous = new Intent(getApplicationContext(),com.example.app_verb_tenses.FuturePerfectContinuous.class);
-                startActivity(FuturePerfectContinuous);
+                Intent FutureContinuous = new Intent(getApplicationContext(), FutureContinuous.class);
+                startActivity(FutureContinuous);
             }
         });
     }

@@ -7,16 +7,29 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/btnFuture"
+        android:id="@+id/btnFutureContinuous"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:backgroundTint="#2c2c2c"
-        android:text="Future"
+        android:text="Future Continuous"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="782dp" />
+        tools:layout_editor_absoluteY="874dp" />
+
+    <Button
+        android:id="@+id/btnFuture"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#2c2c2c"
+        android:text="Future"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnFutureContinuous"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnPastSimple"
@@ -26,7 +39,7 @@
         android:backgroundTint="#2c2c2c"
         android:text="Past Simple"
         android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/btnSimpleFuture"
+        app:layout_constraintBottom_toTopOf="@+id/btnPresentPerfectSimple"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent" />
@@ -58,7 +71,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/btnSimpleFuture"
+        android:id="@+id/btnPresentPerfectSimple"
         android:layout_width="300dp"
         android:layout_height="75dp"
         android:layout_marginBottom="20dp"
