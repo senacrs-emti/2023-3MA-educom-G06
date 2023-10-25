@@ -28,28 +28,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.Appverbtenses" >
         <activity
-            android:name="com.example.app_verb_tenses.PresentContinuousActivity"
-            android:exported="false" />
-        <activity
-            android:name="com.example.app_verb_tenses.FuturePerfectContinuous"
-            android:exported="false" />
-        <activity
-            android:name="com.example.app_verb_tenses.FuturePerfect"
-            android:exported="false" />
-        <activity
-            android:name="com.example.app_verb_tenses.PastPerfectSimple"
-            android:exported="false" />
-        <activity
-            android:name="com.example.app_verb_tenses.PresentPerfectContinuous"
+            android:name="com.example.app_verb_tenses.FutureContinuous"
             android:exported="false" />
         <activity
             android:name="com.example.app_verb_tenses.PresentPerfectSimple"
             android:exported="false" />
         <activity
-            android:name="com.example.app_verb_tenses.SimpleFuture"
+            android:name="com.example.app_verb_tenses.PresentPerfectContinuous"
             android:exported="false" />
         <activity
-            android:name="com.example.app_verb_tenses.PastContinuous"
+            android:name="com.example.app_verb_tenses.SimplePast"
+            android:exported="false" />
+        <activity
+            android:name="com.example.app_verb_tenses.PastPerfectSimple"
+            android:exported="false" />
+        <activity
+            android:name="com.example.app_verb_tenses.SimpleFuture"
             android:exported="false" />
         <activity
             android:name="com.example.app_verb_tenses.PresentContinuous"

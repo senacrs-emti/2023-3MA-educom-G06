@@ -6,4 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".SimpleFuture">
 
+    <TextView
+        android:id="@+id/txtTitle3"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:background="#2C2C2C"
+        android:gravity="center"
+        android:text="Verbpedia"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

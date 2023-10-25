@@ -4,10 +4,6 @@
         "source": "com.example.app_verb_tenses.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_future_perfect_continuous.xml.flat",
-        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_future_perfect_continuous.xml"
-    },
-    {
         "merged": "com.example.app_verb_tenses.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "com.example.app_verb_tenses.app-main-31:/mipmap-mdpi/ic_launcher.webp"
     },
@@ -34,10 +30,6 @@
     {
         "merged": "com.example.app_verb_tenses.app-merged_res-29:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "com.example.app_verb_tenses.app-main-31:/mipmap-xxxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_present_perfect_continuous.xml.flat",
-        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_present_perfect_continuous.xml"
     },
     {
         "merged": "com.example.app_verb_tenses.app-merged_res-29:/mipmap-mdpi_ic_launcher_round.webp.flat",
@@ -96,12 +88,12 @@
         "source": "com.example.app_verb_tenses.app-main-31:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_main.xml"
+        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_future_continuous.xml.flat",
+        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_future_continuous.xml"
     },
     {
-        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_future_perfect.xml.flat",
-        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_future_perfect.xml"
+        "merged": "com.example.app_verb_tenses.app-merged_res-29:/layout_activity_main.xml.flat",
+        "source": "com.example.app_verb_tenses.app-main-31:/layout/activity_main.xml"
     },
     {
         "merged": "com.example.app_verb_tenses.app-merged_res-29:/xml_data_extraction_rules.xml.flat",
