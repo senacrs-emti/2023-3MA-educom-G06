@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnPastPerferctSimple, btnFuture, btnFutureContinuous;
+    Button btnPresentSimple, btnPresentContinuous, btnPastContinuous, btnPastSimple, btnPresentPerfectSimple, btnPresentPerfectContinuous, btnPastPerferctSimple, btnSimpleFuture, btnFutureContinuous;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         btnPastSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent SimplePast = new Intent(getApplicationContext(), SimplePast.class);
-                startActivity(SimplePast);
+                Intent PastPerfect = new Intent(getApplicationContext(), PastContinuous.class);
+                startActivity(PastPerfect);
             }
         });
 
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         btnPresentPerfectSimple.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PresentPerfectSimple = new Intent(getApplicationContext(), PresentPerfectSimple.class);
+                Intent PresentPerfectSimple = new Intent(getApplicationContext(),com.example.app_verb_tenses.PresentPerfectSimple.class);
                 startActivity(PresentPerfectSimple);
             }
         });
@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
         btnPresentPerfectContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent PresentPerfectContinuous = new Intent(getApplicationContext(), PresentPerfectContinuous.class);
+                Intent PresentPerfectContinuous = new Intent(getApplicationContext(),com.example.app_verb_tenses.PresentPerfectContinuous.class);
                 startActivity(PresentPerfectContinuous);
             }
         });
@@ -79,12 +79,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        btnFuture = findViewById(R.id.btnFuture);
-        btnFuture.setOnClickListener(new View.OnClickListener() {
+        btnSimpleFuture = findViewById(R.id.btnSimpleFuture);
+        btnSimpleFuture.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent SimpleFuture = new Intent(getApplicationContext(),SimpleFuture.class);
-                startActivity(SimpleFuture);
+                Intent FuturePerfect = new Intent(getApplicationContext(),com.example.app_verb_tenses.SimpleFuture.class);
+                startActivity(FuturePerfect);
             }
         });
 
@@ -92,8 +92,8 @@ public class MainActivity extends AppCompatActivity {
         btnFutureContinuous.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent FutureContinuous = new Intent(getApplicationContext(), FutureContinuous.class);
-                startActivity(FutureContinuous);
+                Intent FuturePerfectContinuous = new Intent(getApplicationContext(),com.example.app_verb_tenses.FutureContinuous.class);
+                startActivity(FuturePerfectContinuous);
             }
         });
     }

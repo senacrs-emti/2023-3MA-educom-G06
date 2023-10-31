@@ -105,30 +105,30 @@ ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManife
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:18:13-37
 	android:name
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:17:13-45
-activity#com.example.app_verb_tenses.PresentPerfectSimple
+activity#com.example.app_verb_tenses.PresentPerfectContinuous
 ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:19:9-21:40
 	android:exported
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:21:13-37
 	android:name
-		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:20:13-49
-activity#com.example.app_verb_tenses.PresentPerfectContinuous
+		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:20:13-53
+activity#com.example.app_verb_tenses.PastSimple
 ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:22:9-24:40
 	android:exported
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:23:13-53
-activity#com.example.app_verb_tenses.SimplePast
+		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:23:13-39
+activity#com.example.app_verb_tenses.PastPerfectSimple
 ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:25:9-27:40
 	android:exported
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:27:13-37
 	android:name
-		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:26:13-39
-activity#com.example.app_verb_tenses.PastPerfectSimple
+		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:26:13-46
+activity#com.example.app_verb_tenses.PresentPerfectSimple
 ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:28:9-30:40
 	android:exported
 		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:29:13-46
+		ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:29:13-49
 activity#com.example.app_verb_tenses.SimpleFuture
 ADDED from C:\Users\Aluno\Desktop\2023-3MA-educom-G06\app\src\main\AndroidManifest.xml:31:9-33:40
 	android:exported

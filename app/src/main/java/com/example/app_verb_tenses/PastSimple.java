@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SimplePast extends AppCompatActivity {
+public class PastSimple extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_simple_past);
+        setContentView(R.layout.activity_past_simple);
     }
 }

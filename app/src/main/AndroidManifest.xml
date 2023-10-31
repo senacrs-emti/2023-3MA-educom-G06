@@ -17,16 +17,16 @@
             android:name=".FutureContinuous"
             android:exported="false" />
         <activity
-            android:name=".PresentPerfectSimple"
-            android:exported="false" />
-        <activity
             android:name=".PresentPerfectContinuous"
             android:exported="false" />
         <activity
-            android:name=".SimplePast"
+            android:name=".PastSimple"
             android:exported="false" />
         <activity
             android:name=".PastPerfectSimple"
+            android:exported="false" />
+        <activity
+            android:name=".PresentPerfectSimple"
             android:exported="false" />
         <activity
             android:name=".SimpleFuture"

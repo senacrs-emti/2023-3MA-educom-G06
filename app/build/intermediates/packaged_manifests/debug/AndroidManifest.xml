@@ -31,16 +31,16 @@
             android:name="com.example.app_verb_tenses.FutureContinuous"
             android:exported="false" />
         <activity
-            android:name="com.example.app_verb_tenses.PresentPerfectSimple"
-            android:exported="false" />
-        <activity
             android:name="com.example.app_verb_tenses.PresentPerfectContinuous"
             android:exported="false" />
         <activity
-            android:name="com.example.app_verb_tenses.SimplePast"
+            android:name="com.example.app_verb_tenses.PastSimple"
             android:exported="false" />
         <activity
             android:name="com.example.app_verb_tenses.PastPerfectSimple"
+            android:exported="false" />
+        <activity
+            android:name="com.example.app_verb_tenses.PresentPerfectSimple"
             android:exported="false" />
         <activity
             android:name="com.example.app_verb_tenses.SimpleFuture"
