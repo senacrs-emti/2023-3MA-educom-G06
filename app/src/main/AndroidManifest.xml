@@ -15,7 +15,8 @@
         tools:targetApi="34">
         <activity
             android:name=".PresentContinuous"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity"
+            />
         <activity
             android:name=".MainActivity"
             android:exported="true">
