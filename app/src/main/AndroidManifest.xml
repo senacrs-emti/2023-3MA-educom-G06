@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.verbpedia">
+    package="com.example.verbpedia" >
 
     <application
         android:allowBackup="true"
@@ -12,14 +12,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Verbpedia"
-        tools:targetApi="34">
+        tools:targetApi="34" >
+        <activity
+            android:name=".PastPerfectSimple"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PresentPerfectContinuous"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PresentPerfectSimple"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastSimple"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PresentSimple"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PastContinuous"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Future"
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".PresentContinuous"
-            android:parentActivityName=".MainActivity"
-            />
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
