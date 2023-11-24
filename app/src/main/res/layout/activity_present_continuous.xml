@@ -43,4 +43,61 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView34" />
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="12dp"
+        android:text="O verbo to be mudará de acordo com o sujeito como ocorre normalmente com este verbo. As formas contraídas também se mantêm nos padrões de uso do verbo to be. O verbo terminado em -ING se mantém igual para todas as formas."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Form - Negative"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="353dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="12dp"
+        android:text="A forma negativa é feita a partir da adição de ‘not’ após o verbo auxiliar, neste caso, verbo to be. As formas contraídas seguem os mesmos padrões daquelas com o verbo to be como vimos antes."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Exemplos:"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="394dp"
+        android:layout_height="103dp"
+        android:text="-I am eating. (Eu estou comendo.)\n -I am packing my bag. (Eu estou fazendo a minha mala.)\n -Are you checking your WhatsApp messages? (Você/Vocês está/estão verificando suas mensagens no WhatsApp?)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="484dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
