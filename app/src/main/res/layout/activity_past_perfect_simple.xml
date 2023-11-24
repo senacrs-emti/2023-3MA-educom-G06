@@ -7,34 +7,47 @@
     tools:context=".PastPerfectSimple">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Form - Negative"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.054"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
         android:id="@+id/textView39"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Exemplos"
+        android:text="Form - Negative"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.059"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView38"
-        app:layout_constraintVertical_bias="0.031" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView37"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="28dp"
+        android:layout_marginBottom="8dp"
         android:text="Form – Affirmative"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView38"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.087"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView36"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView35"
@@ -59,7 +72,7 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView36"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView35"
         app:layout_constraintVertical_bias="0.0" />
@@ -68,11 +81,12 @@
         android:id="@+id/textView36"
         android:layout_width="373dp"
         android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
         android:text="Como essa estrutura salienta um acontecimento passado antes de outro acontecimento ou momento passado, podemos ter frases em que há a combinação de tempos verbais como Past Perfect Simple e Past Simple."
+        app:layout_constraintBottom_toTopOf="@+id/textView37"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintHorizontal_bias="0.368"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="119dp"
         tools:ignore="MissingConstraints" />
 
     <TextView
@@ -81,9 +95,28 @@
         android:layout_height="128dp"
         android:text="Perceba que o verbo auxiliar had tem apenas uma forma para todos os sujeitos possíveis. A sua contração será ‘d. Lembre-se que para os verbos regulares a forma do particípio passado é aquela terminada em -ed, e para os verbos irregulares a forma do particípio passado é aquela que temos na famosa “terceira coluna” da tabela de verbos irregulares em inglês."
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="267dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="372dp"
+        android:layout_height="43dp"
+        android:text="Para a forma negativa, adicionamos ‘not’ após o verbo auxiliar. A forma contraída neste caso é hadn’t ou ‘d not."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="370dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="16dp"
+        android:text="A forma interrogativa é feita a partir do movimento do verbo auxiliar had para a frente do sujeito, mantendo o resto da oração sem alterações."
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="13dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
