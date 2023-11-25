@@ -10,12 +10,12 @@
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="60dp"
         android:text="Past Continuous"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -23,11 +23,11 @@
         android:id="@+id/textView14"
         android:layout_width="344dp"
         android:layout_height="146dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="28dp"
         android:text="Um dos usos para este tempo verbal é para expressarmos o que estávamos fazendo, sentindo, etc. O passado contínuo também pode ser usado para dar contexto em relação a outra ação ou acontecimento no passado."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.134"
+        app:layout_constraintHorizontal_bias="0.126"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView8" />
 
@@ -48,11 +48,11 @@
         android:id="@+id/textView17"
         android:layout_width="341dp"
         android:layout_height="67dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="20dp"
         android:text="Colocamos o verbo auxiliar no passado, e mantemos o verbo principal com a terminação -ING."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintHorizontal_bias="0.115"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
@@ -60,7 +60,7 @@
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="20dp"
         android:text="Exemplos"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -71,13 +71,9 @@
 
     <TextView
         android:id="@+id/textView19"
-        android:layout_width="350dp"
-        android:layout_height="188dp"
-        android:text="- Last night at 11pm I was sleeping. (Ontem à noite às 23h eu estava dormindo.)\n- They were watching a film when the power went out. (Eles estavam assistindo a um filme quando a energia acabou.) • My mom was working the whole night. (Minha mãe estava trabalhando a noite toda.) Last month, I was organizing our party. (Mês passado, eu estava organizando nossa festa.)\n- My mom was working the whole night. (Minha mãe estava trabalhando a noite toda.)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.131"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView18"
-        app:layout_constraintVertical_bias="0.272" />
+        android:layout_width="342dp"
+        android:layout_height="47dp"
+        android:text="- Last night at 11pm I was sleeping. (Ontem à noite às 23h eu estava dormindo.)"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="474dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

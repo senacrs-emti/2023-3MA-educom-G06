@@ -10,39 +10,142 @@
         android:id="@+id/textView12"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="44dp"
-        android:text="Present Continuous"
+        android:layout_marginTop="16dp"
+        android:text="Present Simple"
         android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView13"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.243" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView13"
-        android:layout_width="370dp"
-        android:layout_height="79dp"
-        android:layout_marginBottom="24dp"
-        android:text="Usado para descrever rotinas, hábitos e generalizações, ou seja, inclui questões de senso comum."
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Form – Affirmative"
+        android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.077"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
     <TextView
         android:id="@+id/textView15"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="472dp"
-        android:text="Exemplos"
-        android:textSize="26sp"
+        android:layout_marginTop="12dp"
+        android:text="Form – Negative"
+        android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.053"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <TextView
+        android:id="@+id/textView63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Form – Interrogative"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView62" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Exemplos"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Usado para descrever rotinas, hábitos e generalizações, ou seja, inclui questões de senso comum."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="No Present Simple os verbos na forma afirmativa terão duas formas: uma para a terceira pessoa do singular (he/she/it) e outra forma para os outros sujeitos possíveis.  "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <TextView
+        android:id="@+id/textView62"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="A forma negativa é construída com a ajuda de verbos auxiliares. Para este tempo verbal, o verbo auxiliar não é o to be como vimos para o Present Continuous, mas sim o verbo do, conjugado de acordo com o sujeito."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="A forma interrogativa é feita a partir do movimento do verbo auxiliar do/does para a frente do sujeito, mantendo o resto da oração sem alterações."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView63" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="- I have breakfast at 9am. (Eu tomo café da manhã às 9h.)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="- I have breakfast at 9am. (Eu tomo café da manhã às 9h.)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView66" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="378dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="- I have breakfast at 9am. (Eu tomo café da manhã às 9h.)"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
