@@ -23,7 +23,7 @@
         android:id="@+id/textView21"
         android:layout_width="372dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Diferentemente do Past Simple, o Present Perfect Simple não precisa de um momento específico no passado, pois o foco é exatamente naquilo que aconteceu, e não em quando - além disso, muitas vezes não sabemos ou não mencionamos essa informação porque não é importante."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.41"
@@ -34,7 +34,7 @@
         android:id="@+id/textView47"
         android:layout_width="372dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:text="Usaremos has para he, she e it e have para todas os outros sujeitos possíveis. A forma contraída será ‘s para has (cuidado para não confundir com a contração de is, preste atenção na frase toda) e ‘ve para have."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.41"
@@ -42,35 +42,13 @@
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
     <TextView
-        android:id="@+id/textView53"
-        android:layout_width="372dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="A forma negativa, como de costume, é construída a partir da adição de ‘not’ após o verbo auxiliar."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView48" />
-
-    <TextView
-        android:id="@+id/textView57"
-        android:layout_width="372dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="A forma interrogativa é feita a partir do movimento do verbo auxiliar has/have para a frente do sujeito, mantendo o resto da oração sem alterações."
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.41"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView55" />
-
-    <TextView
         android:id="@+id/textView59"
         android:layout_width="372dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
+        android:layout_marginTop="8dp"
         android:text="- She has learned French. (Ela aprendeu francês.)"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintHorizontal_bias="0.41"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView58" />
 
@@ -110,32 +88,6 @@
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
-        android:id="@+id/textView48"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Form – Negative"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView47" />
-
-    <TextView
-        android:id="@+id/textView55"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="Form – Negative"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView53" />
-
-    <TextView
         android:id="@+id/textView58"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -146,6 +98,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.052"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView57" />
+        app:layout_constraintTop_toBottomOf="@+id/textView47" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

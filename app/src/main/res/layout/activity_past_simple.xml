@@ -23,7 +23,7 @@
         android:id="@+id/textView21"
         android:layout_width="339dp"
         android:layout_height="83dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="Usado para descrever estados físicos, emocionais, acontecimentos, coisas, etc. em um momento específico no passado."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,76 +35,26 @@
         android:id="@+id/textView22"
         android:layout_width="342dp"
         android:layout_height="32dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:text="Form – Past with to be"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.231"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="339dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="334dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="8dp"
         android:text="Com o verbo to be usamos ‘was’ para I, she, he e it e ‘were’ para as outras pessoas."
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.207"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView22" />
-
-    <TextView
-        android:id="@+id/textView24"
-        android:layout_width="342dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="4dp"
-        android:text="Negative form"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.231"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView23" />
-
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="339dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="8dp"
-        android:text="Assim como vimos em outros tempos verbais, as formas negativa e interrogativa são construídas na maioria das vezes com a ajuda de verbos auxiliares.Com o verbo to be usamos ‘was’ para I, she, he e it e ‘were’ para as outras pessoas."
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView24" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="342dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="8dp"
-        android:text="Interrogative form"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView25" />
-
-    <TextView
-        android:id="@+id/textView27"
-        android:layout_width="339dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="8dp"
-        android:text="A forma interrogativa é feita a partir do movimento do verbo auxiliar did para a frente do sujeito, mantendo o resto da oração sem alterações."
-        android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView26" />
 
     <TextView
         android:id="@+id/textView28"
@@ -115,19 +65,19 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.235"
+        app:layout_constraintHorizontal_bias="0.231"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
 
     <TextView
         android:id="@+id/textView29"
         android:layout_width="327dp"
         android:layout_height="50dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="8dp"
         android:text="-John was famous in the 90’s. (John era famoso nos anos 90.)"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.202"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView28" />
 
@@ -135,11 +85,11 @@
         android:id="@+id/textView30"
         android:layout_width="337dp"
         android:layout_height="51dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="-She was very happy yesterday. (Ela estava muito feliz ontem.)"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.222"
+        app:layout_constraintHorizontal_bias="0.216"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
@@ -147,14 +97,15 @@
         android:id="@+id/textView31"
         android:layout_width="339dp"
         android:layout_height="76dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="-We were late for work this morning. (Nós estávamos atrasados para o trabalho esta manhã.)"
         android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.222"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView30" />
-
+        app:layout_constraintTop_toBottomOf="@+id/textView30"
+        app:layout_constraintVertical_bias="0.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

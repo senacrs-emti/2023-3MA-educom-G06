@@ -7,49 +7,52 @@
     tools:context=".Future">
 
     <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="14dp"
+        android:text="Future"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView18"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
         android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Exemplos"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView23"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="101dp"
-        android:layout_height="40dp"
-        android:text="Future"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView18"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.041"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
 
     <TextView
         android:id="@+id/textView18"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
         android:text="Future with Be + Going To"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.097"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="4dp"
         android:text="Future with Will"
         android:textSize="24sp"
         android:textStyle="bold"
@@ -62,11 +65,11 @@
         android:id="@+id/textView19"
         android:layout_width="378dp"
         android:layout_height="176dp"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="8dp"
         android:text="Uma outra forma de falar sobre o futuro em inglês é através da construção verbal formada pelo verbo to be + going to + verbo na forma base (sem to). Essa construção tende a ser usada para se referir a intenções, decisões, eventos futuros que não têm o mesmo nível de planejamento, consolidação, preparação ou certeza daqueles expressos com o Present Continuous. Neste caso, o verbo to be é o verbo auxiliar, então sabemos que ele será responsável por mudar de acordo com o sujeito, receber o ‘not’ na negativa e também ir para a frente da frase para fazer perguntas."
         app:layout_constraintBottom_toTopOf="@+id/textView20"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintHorizontal_bias="0.393"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
@@ -82,13 +85,13 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="379dp"
-        android:layout_height="103dp"
-        android:layout_marginBottom="16dp"
+        android:layout_width="390dp"
+        android:layout_height="87dp"
+        android:layout_marginBottom="32dp"
         android:text="- I am studying English tomorrow morning. (Eu vou estudar inglês amanhã de manhã.) \n- Is she working tonight? (Ela vai trabalhar hoje à noite?) \n- She’s travelling tomorrow at 7am. (Ela vai viajar amanhã às 7h.)"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.406"
+        app:layout_constraintHorizontal_bias="0.476"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
